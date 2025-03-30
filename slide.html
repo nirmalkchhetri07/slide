@@ -14,13 +14,15 @@
         justify-content: center;
         align-items: center;
         margin-top: 30%;
+        flex-direction: column;
       }
       button {
+        margin-top: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 50px;
-        width: 200px;
+        width: 300px;
       }
       a {
         text-decoration: none;
@@ -32,8 +34,33 @@
   </head>
   <body>
     <div>
-      <button>
-        <a href="/slide.pptx" download>download slide</a>
+      <button
+        style="
+          background-color: #4caf50;
+          border: none;
+          border-radius: 5px;
+          color: white;
+          font-size: 16px;
+          cursor: pointer;
+        "
+      >
+        <a href="/slide.pptx" download style="color: white; font-weight: bold"
+          >Download Slide</a
+        >
+      </button>
+      <button
+        style="
+          background-color: #2196f3;
+          border: none;
+          border-radius: 5px;
+          color: white;
+          font-size: 16px;
+          cursor: pointer;
+        "
+      >
+        <a href="/0071.pptx" download style="color: white; font-weight: bold"
+          >Download Slide 0071</a
+        >
       </button>
     </div>
   </body>
